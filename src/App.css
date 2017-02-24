@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  color: red;
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+span {
+    margin: 5px;
+}
+
+.problem_container {
+  background: #DDD;
+}
+.problem_container:hover {
+  background: #FFF;
+}
+
+.btns {
+    float: right;
+}
+
+.problem {
+  height: 50px;
+  overflow: hidden;
+}
+
+.problem:hover {
+  height: 76px;
+}
+.problems {
+    width: 100%;
+    height: 50px;
+}
+
+.problems > span {
+    display: block;
+    float: left;
+    width: 48px;
+    height: 48px;
+    text-align:center;
+    line-height: 48px;
+    margin-left: 15px;
+    border-radius: 50%;
+    background: #FFF;
+    border:3px solid #EEE;
+}
+
+.problems > .not_done {
+}
+.problems > .done {
+    background: #BBB;
+    color: #FFF;
+}
+.problems > .right {
+    background: #0F0;
+    color: #FFF;
+}
+.problems > .wrong{
+    background: #F00;
+    color: #FFF;
+}
