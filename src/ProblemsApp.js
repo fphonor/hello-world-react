@@ -140,11 +140,11 @@ const task_status = {
   target_score: 0.5,
   submit_time: new Date()
 };
-class App extends Component {
+class ProblemsApp extends Component {
   render () {
     //return <Page problems={problems}/>
     return <StatusPage problems={problems_status} task_status={task_status}/>
   }
 }
 
-export default App;
+export default ProblemsApp;

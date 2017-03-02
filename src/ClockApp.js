@@ -24,10 +24,10 @@ class Clock extends Component {
   }
 }
 
-class App extends Component {
+class ClockApp extends Component {
   render () {
     return <Clock />;
   }
 }
 
-export default App;
+export default ClockApp;
