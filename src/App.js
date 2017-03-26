@@ -152,8 +152,8 @@ function NumberList({numbers}) {
 }
 
 const apps = [
-  withToggle(isToggleOn => <NumberList numbers={[1,2,3,4,5]}/>),
-  withToggle(isToggleOn => <Mailbox unreadMessages={messages} />),
+  () => <NumberList numbers={[1,2,3,4,5]}/>,
+  () => <Mailbox unreadMessages={messages}/>,
   ClockApp,
   ProblemsApp,
   LoginControl,

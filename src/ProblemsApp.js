@@ -142,8 +142,8 @@ const task_status = {
 };
 class ProblemsApp extends Component {
   render () {
-    //return <Page problems={problems}/>
-    return <StatusPage problems={problems_status} task_status={task_status}/>
+    return <Page problems={problems}/>
+    //return <StatusPage problems={problems_status} task_status={task_status}/>
   }
 }
 
